@@ -2,11 +2,18 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+.txt{
+    text-align: center;
+    margin: 150px;
+}
+.line{
+    border-left: 4px solid rgb(233, 21, 21);
+    height: 77px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-continer{
     display: flex;
 }
 .half-width{
@@ -15,6 +22,10 @@ section{
 }
 .half-width-image{
     width: 50%;
+    margin-top: 50px;
+}
+.half-width-image2{
+    width: 30%;
 }
 
 
@@ -25,4 +36,51 @@ section{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+
+
+.goal-area1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: rgba(237,245,246,255);
+    
+
+}
+.goal-area2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: rgba(255,238,238,255);
+   
+
+}
+.goal-area3{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    background-color: rgba(255,244,214,255);
+    
+
+}
+
+.dream-big{
+    background-image:url(images/shapes/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    p
+}
+
+
+
+footer p{
+    text-align: center;
+
+}
+
+.Footer-color{
+    background-color: skyblue;
 }
