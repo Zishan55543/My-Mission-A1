@@ -7,8 +7,8 @@ body{
     margin: 150px;
 }
 .line{
-    border-left: 4px solid rgb(233, 21, 21);
-    height: 77px;
+    border-left: 4px solid rgb(255, 47, 47);
+    height: 85px;
 }
 .orange-color{
     color: orange;
@@ -71,16 +71,31 @@ body{
     background-image:url(images/shapes/dream-bg.png) ;
     background-repeat: no-repeat;
     background-position: left;
-    p
+    
 }
-
-
-
-footer p{
+.dotted-hr{
+    border: dotted 6px black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100px;
+}
+.contact{
+    height:100vh;
+}
+.contact-me{
     text-align: center;
 
 }
 
+
+footer{
+    text-align:center;
+    color: white;
+    
+
+
+}
+
 .Footer-color{
-    background-color: skyblue;
+    background-color: rgb(21, 23, 24);
 }
